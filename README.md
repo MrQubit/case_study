@@ -1,7 +1,9 @@
 # case_study
 case_study
-# Download data to /data forder.
-# Run python main.py
+# Input data:
+input data are located in /data folder
+# Run app:
+python main.py
 # requirements:
 - joblib          0.14.0
 - numpy           1.17.3
