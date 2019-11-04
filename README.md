@@ -1,14 +1,13 @@
 # case_study
-case_study
+Case study for customer predictions (Used LR, MLP)
 # Input data:
 input data are located in /data folder
 # Run app:
 python main.py
-# requirements:
-- joblib          0.14.0
-- numpy           1.17.3
-- pandas          0.25.3
-- scikit-learn    0.21.3
-- sklearn         0.0
+# Install requirements:
 
-# tested on python 3.6
+-  Craete virtual env.: python -m venv case_study
+-  Active env: (On Windows) case_study\Scripts\activate.bat
+-  Insall all requirements from file: pip install -r requirements.txt
+
+# tested on python  3.7.1, Windows
