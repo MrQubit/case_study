@@ -107,7 +107,7 @@ def main():
     tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
     precision = tp/(tp+fp)
     recall = tp/(tp+fn)
-    logging.info("LR Accuracy:{}".format(score))
+    logging.info("LR Score:{}".format(score))
     logging.info("LR precision:{}".format(precision))
     logging.info("LR recall:{}".format(recall))
 
@@ -130,7 +130,7 @@ def main():
     tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
     precision = tp/(tp+fp)
     recall = tp/(tp+fn)
-    logging.info("MLP Accuracy:{}".format(MLP_acc_score))
+    logging.info("MLP Score:{}".format(MLP_acc_score))
     logging.info("MLP precision:{}".format(precision))
     logging.info("MLP recall:{}".format(recall))
 
